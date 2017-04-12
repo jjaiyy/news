@@ -1,0 +1,108 @@
+//页眉
+.header{
+  text-align: center;
+}
+
+//LOGO
+.logo{
+  margin-top: (@margin * 2);
+  text-align: center;
+}
+
+//选项
+.filters{
+  margin: (@margin * 2) 0;
+  text-align: center;
+}
+.filters a{
+  color: @bm-black;
+}
+.filters a:hover{
+  color: @bm-accent;
+}
+
+//搜索框
+.search{
+  width: 35%;
+  margin: 0  auto;
+}
+//.input-group-btn .btn-primary{
+//  background: @bm-primary;
+//  border-color: @bm-primary;
+//  color: @white;
+//}
+
+
+.form-control:focus{
+  border-color: @border-focus;
+  box-shadow: none;
+}
+
+
+//页脚
+.footer-top a,
+.footer-bottom a{
+  color: @white;
+  text-decoration: none;
+}
+
+.footer-top a:hover,
+.footer-bottom a:hover{
+  color: @bm-light-grey;
+}
+
+.footer-top{
+  background: @bm-black;
+  color: @white;
+  padding: (@padding * 2);
+}
+.footer-top h5{
+  text-transform: uppercase;
+  color: @bm-accent;
+  font-size:(@font-size - 0.25);
+  letter-spacing:1px;
+}
+
+//按钮
+.btn{
+  text-transform: uppercase;
+}
+.btn-primary{
+  background: @bm-primary;
+  border-color: @bm-primary;
+  color: @white;
+}
+.btn-primary:hover{
+  background: @bm-dark-primary;
+  border-color: @bm-dark-primary;
+}
+
+//广告
+.advertisement{
+  text-align: center;
+}
+.advertisement .well{
+  margin: 0 (@margin * 4);
+}
+.well{
+  border:0;
+  box-shadow: none;
+  background-color: @secondary-background;
+  .round-corners;
+}
+
+//页脚底部
+.footer-bottom{
+  background: @bm-primary;
+  color: @white;
+  padding:(@padding * 2);
+}
+//.social-media{
+//  width: 50%;
+//  margin: 0 auto;
+//}
+.social-media div{
+  display: inline-block;
+  margin: 0 (@margin - 0.5);
+  float: right;
+}

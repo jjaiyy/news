@@ -1,0 +1,11 @@
+{
+	"index": {
+		"pageTitle": "Home"
+	},
+	"article":{
+		"pageTitle": "Article",
+		"layout": "_layout-article"
+	}
+}
+
+
